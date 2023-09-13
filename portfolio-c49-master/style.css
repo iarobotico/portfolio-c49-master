@@ -1,0 +1,153 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+}
+
+header {
+
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+#nome {
+    /* border: 2px black solid; */
+    margin-left: 25px;
+}
+
+#menuHeader {
+    /* border: 2px black solid; */
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    padding: 0;
+}
+
+.linkMenuHeader {
+    font-size: 20px;
+}
+
+.linkMenuHeader button {
+
+    background-color: rgba(100, 148, 237, 0.5);
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+
+}
+
+.linkMenuHeader button:hover {
+
+    background-color:cornflowerblue;
+
+}
+
+.linkMenuHeader button:active {
+
+    background-color:rgb(237, 100, 100);   
+
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.headerMain {}
+
+.conteinerJogos {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+.conteinerJogo {
+
+    background-color: rgb(95, 158, 160, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 15px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 20px 15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 20px 15px rgba(0, 0, 0, 0.75);
+
+}
+
+
+
+.conteinerJogo:hover {
+
+    background-color: rgb(95, 158, 160);
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.75);
+
+}
+
+.linkJogo {}
+
+.imgJogo {
+
+    height: 200px;
+
+}
+
+.imgJogo:hover {
+
+    height: 230px;
+
+}
+
+.linkCodigo {
+
+    text-decoration: none;
+    color:rgb(92, 20, 160);
+    opacity: 1;
+    
+}
+
+.linkCodigo:visited {
+
+
+
+}
+
+.linkCodigo:active {
+
+opacity: 0.5;
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a img {
+
+    height: 100px;
+
+}
